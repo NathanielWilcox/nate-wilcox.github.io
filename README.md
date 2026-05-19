@@ -1,8 +1,7 @@
 <h1>Portfolio Website</h1>
 
 <h2>Welcome to my portfolio website</h2>
-<h3>My name is Nathaniel Wilcox, but I prefer to go by Nate.</h3>
-<h4>He/Him pronouns</h4>
+<h3>My name is Nathaniel Wilcox.</h3>
 <h4>This was a passion project that really let me dive into web development in a way that my collegiatye education never delved into.</h4>
 
 <a href = https://nate-wilcox.github.io/ >Link to website<a/>
