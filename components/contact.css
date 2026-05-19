@@ -1,0 +1,75 @@
+* {
+	box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type='text'],
+select,
+textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid dimgray;
+	background-color: #474747;
+	border-radius: 7px;
+	color: #4eb1b3;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-ms-border-radius: 7px;
+	-o-border-radius: 7px;
+}
+
+button[type='submit'] {
+	background-color: #ffbb5a;
+	color: black;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 7px;
+	cursor: pointer;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-ms-border-radius: 7px;
+	-o-border-radius: 7px;
+}
+
+button[type='submit']:hover {
+	background-color: #474747;
+	color: #ffbb5a;
+}
+
+/* Style the container/contact section */
+.container {
+	border-radius: 7px;
+	background-color: black;
+	padding: 10px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-ms-border-radius: 7px;
+	-o-border-radius: 7px;
+}
+
+/* Create two columns that float next to each other */
+.column {
+	float: left;
+	width: 50%;
+	margin-top: 6px;
+	padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+	.column,
+	input[type='submit'] {
+		width: 100%;
+		margin-top: 0;
+	}
+}
