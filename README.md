@@ -4,7 +4,7 @@
 <h3>My name is Nathaniel Wilcox.</h3>
 <h4>This was a passion project that really let me dive into web development in a way that my collegiate education never delved into.</h4>
 
-<a href = https://nate-wilcox.github.io/ >Link to website<a/>
+<a href = https://nathanielwilcox.github.io/nate-wilcox.github.io >Link to website<a/>
 
 <p> This is my first attempt at a portfolio webpage usign HTML5, CSS, Javascript, and Github pages.</p>
 
